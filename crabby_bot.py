@@ -8,7 +8,7 @@ import asyncio
 import io
 import shutil
 import zipfile
-from keep_alive import keep_alive  # ✅ ADDED for Render
+from keep_alive import keep_alive  # ✅ ADDED FOR RENDER
 
 # ============================
 # CONFIGURATION
@@ -1384,5 +1384,5 @@ async def nuke(ctx):
 # RUN BOT
 # ============================
 if __name__ == "__main__":
-    keep_alive()  # ✅ ADDED for Render
+    keep_alive()
     bot.run(TOKEN)
